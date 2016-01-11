@@ -1,0 +1,10 @@
+.sf{
+  padding:30px
+}
+.sf-prev-next-btns{
+  text-align: center;
+  margin-top:20px
+}
+.sf-prev-next-btns button{
+  margin:0px 5px;
+}

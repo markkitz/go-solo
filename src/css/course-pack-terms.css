@@ -1,0 +1,14 @@
+.cpt {
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 0 25px -1px 15px;
+	-webkit-box-shadow: 3px 3px 5px 0 rgba(189,189,189,1);
+	-moz-box-shadow: 3px 3px 5px 0 rgba(189,189,189,1);
+	box-shadow: 3px 3px 5px 0 rgba(189,189,189,1);
+	display: flex;
+	cursor: pointer;
+	font-size: 15px;
+    padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left:10px;
+}

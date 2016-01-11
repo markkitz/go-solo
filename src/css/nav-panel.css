@@ -1,0 +1,67 @@
+.navpnl{
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  width: 232px;
+  top: 56px;
+  z-index: 4;
+  transition: transform .15s ease-in-out;
+  will-change: top,left;
+}
+.navpnl ul {
+    list-style: none;
+    padding: 10px 0 8px 0;
+    border-bottom: 1px solid #ddd;
+    margin-left: 10px;
+}
+.navpnl ul:empty {
+    display: none;
+}
+.navpnl ul li a {
+    color: #616161;
+    font-size: 13px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: block;
+    text-decoration: none;
+}
+.navpnl ul li:hover {
+    background-color: rgba(0,0,0,.05);
+}
+.navpnl ul li.active{
+  background-color: rgba(0,0,0,.05);
+  font-weight: bold;
+}
+.navpnl ul li a i {
+    font-size: 19pt;
+    margin-top: 8px;
+    width: 55px;
+    text-align: center;
+}
+.navpnl ul li a i.icon-Moodle-logo {
+    font-size: 15pt;
+}
+.navpnl::-webkit-scrollbar {
+    height: 15px;
+    width: 15px;
+}
+.navpnl::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}
+.navpnl::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: rgba(0,0,0,.3);
+    border: 5px solid transparent;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    min-height: 20px;
+    min-width: 20px;
+    height: 5px;
+    width: 5px;
+}
+.navpnl::-webkit-scrollbar-thumb:hover, .gb_Uc ::-webkit-scrollbar-thumb:active {
+    background-color: rgba(0,0,0,.4);
+}
